@@ -1,0 +1,132 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      min-height: 100vh;
+    }
+
+    body,
+    .card,
+    li,
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    body {
+      font-size: 18px;
+      font-family: 'Kumbh Sans', sans-serif;
+      background: hsl(185, 75%, 39%);
+      background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: right 50vw bottom 40vh, left 50vw top 50vh;
+    }
+
+    .card {
+      background: silver;
+      width: 100%;
+    }
+
+    .list {
+      width: 100%;
+      border-top: solid 1px hsl(0, 0%, 87%);
+      padding: 0.5rem 0;
+    }
+
+    .list ul {
+      margin: 0 auto;
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+    }
+
+    .card {
+      position: relative;
+      background: white;
+      padding-top: 75px;
+      border-bottom-left-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+    }
+
+    .header {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+
+    .content {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+
+    .img-user {
+      display: block;
+      border-radius: 50%;
+      border: solid 5px white;
+      position: absolute;
+      top: -52px;
+    }
+
+    h1,
+    li span {
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+
+    .age {
+      font-size: 1rem;
+    }
+
+    li {
+      font-size: 0.6rem;
+      padding: 1rem;
+    }
+
+    li span {
+      margin-bottom: 0.3rem;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: 0.8rem;
+    }
+
+    h1 {
+      margin-top: -0.2rem;
+      margin-bottom: 0.6rem;
+    }
+
+    h2 {
+      margin-bottom: 1.8rem;
+    }
+
+    li,
+    h2,
+    .age {
+      color: hsl(0, 0%, 59%);
+    }
+
+    li span,
+    h1 {
+      color: hsl(229, 23%, 23%);
+    }
+
+    @media (min-width: 1440px) {
+      .content {
+        max-width: 398px;
+        max-height: 373px;
+      }
+    }
