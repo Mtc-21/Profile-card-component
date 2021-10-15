@@ -1,5 +1,5 @@
 # Profile-card-component
-Solution to the [Profile card component challenge]https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ) challenge on frontend mentor
+Solution to the [Profile card component challenge](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ) challenge on frontend mentor
 #### Desktop Design:
 ![desktop-design](https://user-images.githubusercontent.com/71796360/137411582-2e994839-08bd-49b3-aa45-5c585cbba5e3.PNG)
 # Link
